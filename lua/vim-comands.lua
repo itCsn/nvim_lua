@@ -1,0 +1,5 @@
+vim.cmd('set numberwidth=2')
+vim.cmd('let g:rainbow_active = 1')
+vim.cmd('set matchpairs+=<:>')
+vim.cmd('set guicursor=a:')
+vim.cmd('autocmd TermOpen term://* startinsert')
